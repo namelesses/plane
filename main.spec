@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['plane.pyw'],
+a = Analysis(['main.pyw'],
              pathex=['G:\\Git\\plane'],
              binaries=[],
              datas=[],

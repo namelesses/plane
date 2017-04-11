@@ -3,8 +3,8 @@
 
 需要pygame
 
-直接运行plane.pyw文件开始游戏
+直接运行main.pyw文件开始游戏
 
-也可以在命令行使用pyinstaller plane.spec打包成exe可执行文件
+也可以在命令行使用pyinstaller main.spec打包成exe可执行文件
 
 
