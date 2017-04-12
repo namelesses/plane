@@ -1,7 +1,7 @@
 # plane
 飞机大战
 
-需要pygame
+需要python3.0,pygame
 
 直接运行main.pyw文件开始游戏
 

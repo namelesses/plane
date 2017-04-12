@@ -22,10 +22,11 @@ import supply
 pygame.init()  # pygame初始化
 pygame.mixer.init()  # 混音器初始化
 bg_size = width, height = 480, 852  # 设计背景尺寸
-x = (1920 - width) / 2
-y = (1080 - height) / 2
+x = (1920 - width) // 2
+y = (1080 - height) // 2
 os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (x, y)  # 设置窗口位置为中间
 screen = pygame.display.set_mode(bg_size, DOUBLEBUF, 32)  # 设置背景对话框
+
 pygame.display.set_caption("飞机大战Beta版!")  # 设置窗口标题
 # ================创建窗口====================
 
